@@ -1,5 +1,5 @@
 import axios from 'axios';
 const API =axios.create({
-    baseURL:'http://localhost:5000/api'
+    baseURL: 'https://hirehub-server-2zj3.onrender.com/api'
 });
 export default API;
